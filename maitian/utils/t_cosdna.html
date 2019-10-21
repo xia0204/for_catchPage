@@ -1,0 +1,252 @@
+<!doctype html>
+<html>
+<head>
+<title>化妆品、保养品产品成分搜寻</title>
+<meta charset="utf-8">
+<META NAME="keywords" CONTENT="化妆品, 保养品, 彩妆">
+<META NAME="description" CONTENT="提供各种化妆品、保养品数据库搜寻，并进行成分查询分析，帮您了解手中的产品特性及致痘、致粉刺性之可能。">
+<link rel="stylesheet" type="text/css" href="/css/style.css">
+<style type="text/css">
+<!--
+#m4 {
+        font-weight:bold;
+}
+
+.ProdTbl {
+        width: 100%;
+        text-align: left;
+    border-collapse:collapse;
+    border: solid 1px #aaa;
+}
+
+.ProdTbl thead tr th {
+        background-color: #FFE8DB;
+    border: solid 1px #ccc;
+        font-size: 14px;
+        padding: 4px;
+}
+
+.ProdTbl tbody td {
+        color: #3D3D3D;
+        padding: 4px;
+        background-color: #FFF;
+        vertical-align: top;
+        border-right: dotted 1px #ccc;
+        border-bottom: dotted 1px #ccc;
+}
+
+.ProdTbl tfoot
+{
+    background-color:#FFE8DB;
+    text-align:center;
+        border-top: solid 1px #ccc;
+}
+
+.ProdTbl tfoot td
+{
+        padding: 3px;
+}
+-->
+</style>
+<script src="/scripts/jquery.js" type="text/javascript"></script>
+<script src="/scripts/product.js" type="text/javascript"></script>
+<script>
+        var msg_checkQ1 = "请输入欲查询之文字\n";
+        var msg_checkQ2 = "输入长度太短\n";
+</script>
+
+</head>
+<body>
+<div id="pagebase">
+<div id="toolbar">
+    <span>
+        <img src="/images/chs.gif" alt="" border="0" align="absmiddle"/> »&nbsp;&nbsp;<a href="/cht/product.php?q=%E5%B0%8F%E6%A3%95%E7%93%B6&amp;p=3"><img src="/images/cht.gif" alt="" border="0" class="img_dark" align="absmiddle" title="切換為繁體"/></a> <a href="/eng/product.php?q=%E5%B0%8F%E6%A3%95%E7%93%B6&amp;p=3"><img src="/images/eng.gif" alt="" border="0" class="img_dark" align="absmiddle" title="Switch to English Language"/></a> <a href="/jpn/product.php?q=%E5%B0%8F%E6%A3%95%E7%93%B6&amp;p=3"><img src="/images/jpn.gif" alt="" border="0" class="img_dark" align="absmiddle" title="日本語に切り替え"/></a>         <a href="https://m.cosdna.com/chs/product.php?q=%E5%B0%8F%E6%A3%95%E7%93%B6&p=3"><i class="fa fa-mobile fa-lg ml10"></i> 移动版</a></span>
+<span>
+        <a href="/chs/user/signup.php">加入会员</a>
+                                  |     <a href="/chs/user/login.php"><i class="fa fa-sign-in"></i> 登录</a>
+        </span></div>
+<div id="title">
+    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+            <td nowrap id="logo"><a href="/"><img src="/images/cosmetic_dna.gif" alt="彩妆、保养品原料成分(成份)查询分析辞典" border="0" title="返回 CosDNA 首页"></a>
+            </td>
+            <td width="100%" align="right" valign="bottom">
+            </td>
+        </tr>
+    </table>
+</div>
+<div id="topmenu">
+    <ul>
+
+                <li id="m1"><a href="/chs/">首页</a></li>
+            <li id="m2"><a href="/chs/stuff.php">单一成份查询</a></li>
+            <li id="m3"><a href="/chs/ingredients.php" title="适用于手边已有该化妆品之成分清单">全成份分析</a></li>
+            <li id="m4"><a href="/chs/product.php" title="适用于只知道化妆品名称，想了解其成分">化妆品搜寻</a></li>
+            <li id="m5"><a href="/chs/supplier/product.php">原料成分买卖</a></li>
+            <li id="m6"><a href="/chs/soap_recipe.php">手工皂</a></li>
+            <li id="m7"><a href="/chs/forum/">论坛</a></li>
+            <li id="m9"> </li>
+            </ul>
+</div><div class="levelindex"><img src="/images/icon_pink1.gif"> <a href="/chs/">CosDNA</a> &gt; 依产品名称搜寻 </div>
+<!-- content start -->
+<div class="ProdContent">
+        <form name="form1" method="get" action="product.php" onSubmit="return checkWholeForm(this)">
+        <div class="CornerBox CB_Org">
+    <div class="ProdTbl_content">
+        <input name="q" type="text" id="q" style="width: 350px;" class="input-gen" value="小棕瓶" maxlength="100" AUTOCOMPLETE="Off" placeholder="输入产品名称">
+            <a href="javascript:void(0);" class="clearinput" title="清除"></a>
+        <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i> 查产品</button>
+    </div>
+        </div>
+        </form>
+    <div class="ProdResult">
+      <table class="ProdResultTable ProdTbl">
+                <thead>
+                <tr><th nowrap><a class="ProdTdTitle" href="/chs/product.php?q=小棕瓶&s=1">名称</a></th><th nowrap><a class="ProdTdTitle" href="/chs/product.php?q=小棕瓶&s=5">by</a></th><th><a class="ProdTdTitle" href="/chs/product.php?q=小棕瓶&s=3">建檔日</a></th></tr>        </thead>
+        <tbody>
+                <tr valign="top">
+        <td class="ProdName"><a href="cosmetic_9100378632.html" >TAKAMI CE<span class="Keyword2">小棕瓶</span>精华</a></td>
+                <td noWrap><img src="/images/av/b.gif" title="luna717" ></td>
+                <td noWrap>2018-07-16</td>
+        </tr>
+                <tr valign="top">
+        <td class="ProdName"><a href="cosmetic_2713127430.html" >Estee Lauder (雅诗兰黛) <span class="Keyword2">小棕瓶</span></a></td>
+                <td noWrap></td>
+                <td noWrap>2013-12-09</td>
+        </tr>
+                <tr valign="top">
+        <td class="ProdName"><a href="cosmetic_a0a4132864.html" ><img src="/images/cos/s3b0a132864.jpg" align="absmiddle">Estee Lauder (雅诗兰黛) <span class="Keyword2">小棕瓶</span></a></td>
+                <td noWrap><img src="/images/av/b.gif" title="michell0317" ></td>
+                <td noWrap>2014-02-10</td>
+        </tr>
+                <tr valign="top">
+        <td class="ProdName"><a href="cosmetic_2e84139799.html" >Estee Lauder (雅诗兰黛) <span class="Keyword2">小棕瓶</span></a></td>
+                <td noWrap><img src="/images/av/b.gif" title="jiangjuan151" ></td>
+                <td noWrap>2014-04-11</td>
+        </tr>
+                <tr valign="top">
+        <td class="ProdName"><a href="cosmetic_98bd160766.html" >Estee Lauder (雅诗兰黛) <span class="Keyword2">小棕瓶</span></a></td>
+                <td noWrap><img src="/images/av/b.gif" title="sosoaki" ></td>
+                <td noWrap>2014-10-10</td>
+        </tr>
+                <tr valign="top">
+        <td class="ProdName"><a href="cosmetic_5d0a161440.html" >Estee Lauder (雅诗兰黛) <span class="Keyword2">小棕瓶</span></a></td>
+                <td noWrap><img src="/images/av/b.gif" title="jaina" ></td>
+                <td noWrap>2014-10-15</td>
+        </tr>
+                <tr valign="top">
+        <td class="ProdName"><a href="cosmetic_8a4e438324.html" >Estee Lauder (雅诗兰黛) <span class="Keyword2">小棕瓶</span></a></td>
+                <td noWrap></td>
+                <td noWrap>2019-05-05</td>
+        </tr>
+                <tr valign="top">
+        <td class="ProdName"><a href="cosmetic_dcff274989.html" >Estee Lauder (雅诗兰黛) <span class="Keyword2">小棕瓶</span></a></td>
+                <td noWrap><img src="/images/av/b.gif" title="hxq8470" ></td>
+                <td noWrap>2017-02-27</td>
+        </tr>
+                <tr valign="top">
+        <td class="ProdName"><a href="cosmetic_0352373661.html" ><img src="/images/cos/sa695373661.jpeg" align="absmiddle">Estee Lauder (雅诗兰黛) <span class="Keyword2">小棕瓶</span></a></td>
+                <td noWrap><img src="/images/av/sa620121921.jpe" title="chengqing2016"></td>
+                <td noWrap>2018-06-24</td>
+        </tr>
+                <tr valign="top">
+        <td class="ProdName"><a href="cosmetic_1006382992.html" >Estee Lauder (雅诗兰黛) <span class="Keyword2">小棕瓶</span></a></td>
+                <td noWrap><img src="/images/av/b.gif" title="sarai89" ></td>
+                <td noWrap>2018-08-03</td>
+        </tr>
+                <tr valign="top">
+        <td class="ProdName"><a href="cosmetic_74b2406506.html" >Estee Lauder (雅诗兰黛) <span class="Keyword2">小棕瓶</span></a></td>
+                <td noWrap></td>
+                <td noWrap>2018-11-29</td>
+        </tr>
+                <tr valign="top">
+        <td class="ProdName"><a href="cosmetic_2489406507.html" >Estee Lauder (雅诗兰黛) <span class="Keyword2">小棕瓶</span></a></td>
+                <td noWrap></td>
+                <td noWrap>2018-11-29</td>
+        </tr>
+                <tr valign="top">
+        <td class="ProdName"><a href="cosmetic_3c73398408.html" ><img src="/images/cos/s8846398408.jpg" align="absmiddle">Apclab 澳洲28天甄白精华<span class="Keyword2">小棕瓶</span></a></td>
+                <td noWrap><img src="/images/av/s91b5166264.jpg" title="729"></td>
+                <td noWrap>2018-10-18</td>
+        </tr>
+                <tr valign="top">
+        <td class="ProdName"><a href="cosmetic_87fe405142.html" >雅诗兰黛 <span class="Keyword2">小棕瓶</span></a></td>
+                <td noWrap><img src="/images/av/b.gif" title="phageous" ></td>
+                <td noWrap>2018-11-21</td>
+        </tr>
+                <tr valign="top">
+        <td class="ProdName"><a href="cosmetic_269d412473.html" >雅丝兰黛 <span class="Keyword2">小棕瓶</span></a></td>
+                <td noWrap></td>
+                <td noWrap>2019-01-02</td>
+        </tr>
+                <tr valign="top">
+        <td class="ProdName"><a href="cosmetic_767c446514.html" >Estee Lauder (雅诗兰黛) <span class="Keyword2">小棕瓶</span>密集浓缩精华 20ml</a></td>
+                <td noWrap></td>
+                <td noWrap>2019-06-17</td>
+        </tr>
+                <tr valign="top">
+        <td class="ProdName"><a href="cosmetic_e022455375.html" >Estee Lauder (雅诗兰黛) <span class="Keyword2">小棕瓶</span>精华</a></td>
+                <td noWrap></td>
+                <td noWrap>2019-08-02</td>
+        </tr>
+                <tr valign="top">
+        <td class="ProdName"><a href="cosmetic_428b455435.html" >Estee Lauder (雅诗兰黛) 特润密集修护浓缩精华素（全新高能<span class="Keyword2">小棕瓶</span>）</a></td>
+                <td noWrap><img src="/images/av/s388d152889.jpg" title="LiMy"></td>
+                <td noWrap>2019-08-02</td>
+        </tr>
+                <tr valign="top">
+        <td class="ProdName"><a href="cosmetic_df48456631.html" >伊芳妮<span class="Keyword2">小棕瓶</span>眼霜</a></td>
+                <td noWrap></td>
+                <td noWrap>2019-08-08</td>
+        </tr>
+                <tr valign="top">
+        <td class="ProdName"><a href="cosmetic_2b57456890.html" >Estee Lauder (雅诗兰黛) 高能<span class="Keyword2">小棕瓶</span></a></td>
+                <td noWrap></td>
+                <td noWrap>2019-08-09</td>
+        </tr>
+                        </tbody>
+                <tfoot>
+                    <tr id="pager">
+                        <td colspan="3">
+                                <ul class="pagination pagination_my"><li><a href="/chs/product.php?q=%E5%B0%8F%E6%A3%95%E7%93%B6&p=2" >上一页</a></li> <li><a href="/chs/product.php?q=%E5%B0%8F%E6%A3%95%E7%93%B6&p=1">1</a></li><li><a href="/chs/product.php?q=%E5%B0%8F%E6%A3%95%E7%93%B6&p=2">2</a></li><li class="active"><span>3</span></li></ul>                     </td>
+            </tr>
+        </tfoot>
+      </table>
+                <div style="margin:8px 0 0 0px;"><font color="red">超过60笔资料符合，请用更精确之关键词，或登入会员</font></div>
+        <br>
+    </div>
+<!-- content end --></div>
+<!-- right column start -->
+<div class="ProdRColumn">
+<script type="text/javascript">
+                google_ad_client = "ca-pub-0684184712291081";
+                google_ad_slot = "4512457407";
+                google_ad_width = 300;
+                google_ad_height = 250;
+                </script>
+                <script type="text/javascript"
+                  src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+                </script>
+        <div style="margin-top: 10px;"></div><script type="text/javascript">
+                google_ad_client = "ca-pub-0684184712291081";
+                google_ad_slot = "4512457407";
+                google_ad_width = 300;
+                google_ad_height = 250;
+                </script>
+                <script type="text/javascript"
+                  src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+                </script>
+        <div style="margin-top: 10px;"></div></div>
+<!-- right column end -->
+<div style="clear:both"></div>
+<div class="tail">
+    <div class="tail1">
+
+            |&nbsp; <a href="/chs/help/privacy.php">隱私權保障</a>&nbsp; |&nbsp;<a href="/chs/help/ingredients_qna.php">常见问题</a>&nbsp; |&nbsp; <a href="/chs/help/cooperate.php">联络我们</a>&nbsp; |
+            </div>
+    <div class="tail2">
+        Copyright cosdna.com All rights reserved.
+    </div>
+</div></div>
+</body>
+</html>
