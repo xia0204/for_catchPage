@@ -41,4 +41,6 @@ a = client.basicGeneral(image, options)
 #
 # """ 带参数调用通用文字识别, 图片参数为远程url图片 """
 # a = client.basicGeneralUrl(url, options)
+# use baidu api tell pdf
 print(a)
+"# nothing important" 
